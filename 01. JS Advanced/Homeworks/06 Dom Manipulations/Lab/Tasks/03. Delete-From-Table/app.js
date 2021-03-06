@@ -14,9 +14,7 @@ function deleteByEmail() {
         }
     }
 
-
     resultField.textContent = isFound === false ? "Not found." : "Deleted."
-
 
     document.getElementsByTagName('input')[0].value = '';
 }

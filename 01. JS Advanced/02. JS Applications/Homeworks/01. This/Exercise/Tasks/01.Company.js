@@ -1,4 +1,5 @@
 class Company {
+
     constructor() {
         this.departments = [];
         this.realDepartments = {};

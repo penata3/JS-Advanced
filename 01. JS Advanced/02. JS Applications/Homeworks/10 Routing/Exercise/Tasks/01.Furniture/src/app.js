@@ -10,13 +10,13 @@ import { loginPage } from './views/login.js'
 import { myPage } from './views/myFurniture.js'
 import { registerPage } from './views/register.js'
 import { logout, myFurniture } from './api/data.js'
-
-const main = document.querySelector('.container');
-
 document.getElementById('logoutBtn').addEventListener('click', async() => {
     await logout();
     setNavigation();
 })
+
+const main = document.querySelector('.container');
+
 
 
 page('/', decorateContext, dashboardPage);

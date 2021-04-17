@@ -54,7 +54,7 @@ export async function get(ulr) {
 }
 
 export async function post(url, data) {
-    return await request(url, getOptions('post', data));
+    await request(url, getOptions('post', data));
 }
 
 

@@ -18,7 +18,7 @@ document.getElementById('logoutBtn').addEventListener('click', async() => {
 const main = document.querySelector('.container');
 
 
-
+page('/index.html', decorateContext, dashboardPage)
 page('/', decorateContext, dashboardPage);
 
 page('/create', decorateContext, createPage);
